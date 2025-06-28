@@ -1,11 +1,27 @@
 body {
-  background: #222;
+  background: grey;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
+}
+
+.game-header {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+.game-header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: grey;
 }
 
 #pong-container {
