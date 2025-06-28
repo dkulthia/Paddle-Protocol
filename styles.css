@@ -5,7 +5,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Baloo 2', cursive;
 }
 
 .game-header {
@@ -21,6 +21,7 @@ body {
 .game-header h1 {
   margin: 0;
   font-size: 36px;
+  font-family: 'Baloo 2', cursive;
   color: grey;
 }
 
@@ -43,6 +44,7 @@ body {
   color: #fff;
   font-size: 2.2em;
   font-weight: bold;
+  font-family: 'Baloo 2', cursive;
   user-select: none;
   pointer-events: none;
   letter-spacing: 0.2em;
@@ -68,6 +70,7 @@ body {
   color: #fff;
   cursor: pointer;
   font-weight: bold;
+  font-family: 'Baloo 2', cursive;
   transition: background 0.2s;
 }
 
@@ -86,6 +89,7 @@ body {
   border-radius: 16px;
   font-size: 2.2em;
   font-weight: bold;
+  font-family: 'Baloo 2', cursive;
   text-align: center;
   z-index: 3;
   box-shadow: 0 0 24px 2px #000c;
